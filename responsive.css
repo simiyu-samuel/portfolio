@@ -1,0 +1,91 @@
+@media screen and (max-width: 1200px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+  }
+}
+@media screen and (max-width: 690px) {
+  .service-box button {
+    font-size: 10px;
+    width: 100px;
+    height: 20px;
+  }
+  .service-box {
+    font-size: 14px;
+    width: 43%;
+    column-gap: 0px;
+  }
+  #project {
+    margin-top: 100px;
+  }
+  .project-main {
+    flex-direction: column;
+  }
+  #service {
+    margin-top: 100px;
+  }
+  .project-box {
+    width: 80%;
+  }
+  #contact {
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+  #contact .main {
+    flex-direction: column;
+  }
+  .cont-info {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+  }
+  .cont-info div {
+    width: 50%;
+  }
+  .me {
+    display: flex;
+    flex-direction: column;
+  }
+  .qualities li {
+    font-size: 10px;
+  }
+  .form {
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+    margin-left: 20%;
+  }
+  .profile-pic {
+    margin-top: 50px;
+  }
+  .profile-pic img {
+    width: 150px;
+  }
+  .service-box {
+    width: 80%;
+    margin-left: 10%;
+  }
+  #project {
+    margin-top: 750px;
+  }
+  .project-box {
+    margin-left: 5%;
+  }
+  .form {
+    margin-left: -20px;
+  }
+  .form button {
+    margin-top: -30px;
+  }
+  footer {
+    margin-top: 300px;
+  }
+}

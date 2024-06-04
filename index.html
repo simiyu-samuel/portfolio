@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "ilHPjAI2cdI9utfP7",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <nav class="desktop-nav">
+      <div class="logo">Samuel Simiyu</div>
+      <ul class="menu-links">
+        <a href="#home" class="active"><li>home</li></a>
+        <a href="#about"><li>About</li></a>
+        <a href="#service"><li>Services</li></a>
+        <a href="#project"><li>Project</li></a>
+        <a href="#contact"><li>Contact</li></a>
+      </ul>
+    </nav>
+    <nav class="mobile-nav">
+      <div class="logo">Samuel Simiyu</div>
+      <div class="humbuger">
+        <div class="humbuger-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="humbuger-menu-links">
+          <a href="#home" class="active"><li>home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#service"><li>Services</li></a>
+          <a href="#project"><li>Project</li></a>
+          <a href="#contact"><li>Contact</li></a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="profile" id="home">
+      
+      <div class="content">
+        <p>
+          Hey there, <br />
+          My name is <strong>Samuel Simiyu</strong> <br />
+          <span>Web Developer</span>
+          <br />
+          Based in Nairobi, Kenya.
+        </p>
+        <a href="#contact"><button class="contact-btn btns">Contact Me!</button></a>
+        <div class="social-links">
+          <a href="https://github.com/simiyu-samuel"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-simiyu-63270a236"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100070854736869"><i class="fa-brands fa-square-facebook"></i></a>
+        </div>
+      </div>
+      <div class="profile-pic">
+        <img src="assets/simiyu.jpg" alt="" />
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="about">
+        <h1>about <span>me</span></h1>
+      </div>
+      <div class="about-content">
+        <div class="bio">
+          <p>
+            <strong
+              >My Name Is Samuel Simiyu AND I Am A <br />
+              Web Developer</strong
+            ><br /><br />
+            I am currently pursuing a Diploma course in
+            <b>Information Communication Technology</b> <br />at
+            <b>Masinga Technical College</b> In Machakos, Kenya. Am passionate
+            about, developing interactive<br />
+            user interfaces and better user experiences and highly functional
+            web applications by the help of<br />
+            latest web technologies. Am also interested in Gaming and Sci-Fic
+            Movies.
+          </p>
+        </div>
+        <div class="personal">
+          <div>
+            <p><strong>Name :</strong>Samuel Simiyu</p>
+            <p><strong>Age :</strong>21</p>
+            <p><strong>Gender :</strong>Male</p>
+            <p><strong>Language :</strong>English, Kiswahili</p>
+            <p><strong>Specialization :</strong>Web Development</p>
+          </div>
+          <div>
+            <p><strong>Freelance :</strong>Yes, Available</p>
+            <p><strong>Phone :</strong>+254-796-590-401</p>
+            <p><strong>Email :</strong>simiyusamuel869@gmail.com</p>
+            <p><strong>Country :</strong>Kenya</p>
+          </div>
+        </div>
+        <div class="about-btn">
+          <button class="resume btns">Resume</button>
+          <button class="hire btns">Hire Me!</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="service" class="secs">
+      <div class="service">
+        <h1>What<span> I can </span>Offer</h1>
+      </div>
+      <div class="service-content">
+        <div class="service-box web-design">
+          WEB DESIGN
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+        <div class="service-box web-dev">
+          web development
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+        <div class="service-box ui">
+          ui/ux design
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+        <div class="service-box payment">
+          payment integration
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+        <div class="service-box api">
+          api design & integration
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+        <div class="service-box seo">
+          Search Engine Optimization
+          <div class="btn">
+            <a href="#contact"><button class="btns">Hire Me On This</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="secs">
+      <div class="project">
+        <h1>proj<span>ect</span></h1>
+      </div>
+      <div class="project-main">
+        <div class="project-box">
+          <img src="assets/formvalidation.png" alt="" />
+          <div class="info">
+            <p>
+              <span>Login Form with Authentication</span><br />
+              This project allows users to login to a website by inputing there
+              login details earlier stored in MySql database while creating an
+              account.
+              after.<br/>
+              <ul class="tech-used">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVASCRIPT</li>
+                <li>PHP</li>
+              </ul>
+            </p>
+            <div class="pro-btn">
+              <a href="https://github.com/simiyu-samuel/php-form-validation"><button class="btns">View code</button></a>
+            </div>
+          </div>
+        </div>
+        
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="secs">
+      <div class="contact">
+        <h1>Con<span>tact</span></h1>
+      </div>
+      <div class="main">
+        <div class="cont-info">
+          <div>
+            <h4>GET IN TOUCH</h4>
+          <p>
+            Talk To Me For Your <span>Next <br />Project(s)</span>
+          </p>
+          <p>
+            Wanna say Hi or discuss a project? Connect with me via
+            <span>Email</span> or Through <span>WhatsApp.</span>
+          </p>
+          </div>
+          <div class="me">
+            <div class="qualities">
+              <li>Good communication & team skills</li>
+              <li>Critical Thinking</li>
+              <li>Proficient in writing code</li>
+              <li>Ability to learn new technologies</li>
+              <li>Self descipline & time management</li>
+            </div>
+            <div class="social">
+              <a href="#"><i class="fa-brands fa-square-github"></i></a>
+              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <form>
+            <div>
+              <div class="fullname cs">
+                <label>Full Name:</label>
+                <input
+                  type="text"
+                  id="fullname"
+                  name="fullname"
+                  placeholder="Simiyu Samuel"
+                  required
+                />
+              </div>
+              <div class="email cs">
+                <label>Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="simiyu45@gmail.com"
+                  required
+                />
+              </div>
+            </div>
+            <div>
+              <div class="phone cs">
+                <label>Phone No:</label>
+                <input
+                  type="number"
+                  id="phone"
+                  name="phone"
+                  placeholder="+254 96590401"
+                  required
+                />
+              </div>
+              <div class="subject cs">
+                <label>Subject:</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="RESTRICTED"
+                  readonly
+                />
+              </div>
+            </div>
+            <div class="message cs">
+              <label>Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message goes here buddy!"
+              ></textarea>
+            </div>
+            <button type="submit" onclick="sendMail()">SEND MESSAGE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Samuel<span>Simiyu</span></h3>
+
+				<p class="footer-links">
+					<a href="#home" class="link-1">Home</a>
+				
+					<a href="#about">About</a>
+					
+					<a href="#">Faq</a>
+					
+					<a href="#contact">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Samuel Simiyu © 2024</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p> Nairobi, Kenya</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<p>+254 796590401</p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a href="mailto:simiyusamuel869@gmail.com">simiyusamuel869@gmail.com</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About Me</span>
+					Web Developer, focusing on MERN STACK Development
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="https://github.com/simiyu-samuel"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com/in/samuel-simiyu-63270a236"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100070854736869"><i class="fa-brands fa-square-facebook"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+    <script src="script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/d32167535d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
